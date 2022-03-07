@@ -25,7 +25,7 @@
          url('./styles/montserrat-v23-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('./styles/montserrat-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
- 
+ /*main and header start */
 html{
     box-sizing: border-box;
 }
@@ -38,7 +38,8 @@ h2{
     font-weight: 900;
   }
 .wrapper{
-    max-width: 1287px;
+   /* max-width: 1287px;*/
+   padding: 0 0 0 96px;
     margin: 0 auto;
 }
 body{
@@ -52,6 +53,7 @@ body{
 .header1{
     height: 145px;
     background: linear-gradient(90.34deg, #0390BD 27.69%, rgba(4, 163, 213, 0) 98.95%);
+    margin-bottom: 8px;
 }
 .header2{
     height: 209px;
@@ -125,4 +127,34 @@ margin-bottom: 12px;
 }
 .button-number{
     margin-left: 77px;
+}
+/*main and header end */
+/* slider-start* can-fixed 1920 */
+
+.slider{
+   
+    border: 2px solid black;
+    max-width: 80%;
+    margin: 20px auto;
+     overflow: hidden; 
+}
+.slider-line{
+    display: flex;
+    transition: all ease 1s;
+}
+/* slider-end*/
+/* .wrapper-slider{
+    position:relative;
+} */
+.mcontainer{
+    position:relative;
+}
+.buttons{
+    position: absolute;
+    left: 45%;
+    top: 95%;
+}
+.button{
+    width: 20px;
+    height: 20px;
 }
