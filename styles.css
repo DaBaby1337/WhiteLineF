@@ -1,0 +1,128 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/montserrat-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-900 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('./styles/montserrat-v23-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./styles/montserrat-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+ 
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+  }
+.wrapper{
+    max-width: 1287px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: bold;
+}
+.header-logo{
+    padding-top: 24px;
+}
+.header1{
+    height: 145px;
+    background: linear-gradient(90.34deg, #0390BD 27.69%, rgba(4, 163, 213, 0) 98.95%);
+}
+.header2{
+    height: 209px;
+    background-color: #CF0089;
+}
+.header-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.call-now{
+    background: url(img/bg-head1.png) no-repeat;
+padding: 59px 46px 28px;
+ width: 537px;
+}
+
+.call{
+    font-weight: 700px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+.order-taxi{
+    width: 537px;
+    height: 209px;
+    background: url(img/bg2.svg) no-repeat;
+}
+.samara-taxi{
+    max-width: 652px; 
+    height: 116;
+    padding: 29px 0 0px 0;
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 50px;
+}
+.buisnes{
+    font-family: 'Gals';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    padding-top: 15px;
+    color: #FFE178;
+}
+.order-call{
+    text-align: right;
+    width:201px;
+    height:29px;
+  margin-left: 289px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+color: #CF0089;
+margin-top: 44px;
+margin-bottom: 12px;
+}
+.frorm-number-field{
+    width: 413px;
+    height: 55px;
+  margin-left: 77px;
+ margin-bottom: 12px;
+}
+.button-number{
+    margin-left: 77px;
+}
