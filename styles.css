@@ -142,10 +142,6 @@ margin-bottom: 12px;
     display: flex;
     transition: all ease 1s;
 }
-/* slider-end*/
-/* .wrapper-slider{
-    position:relative;
-} */
 .mcontainer{
     position:relative;
 }
@@ -158,3 +154,52 @@ margin-bottom: 12px;
     width: 20px;
     height: 20px;
 }
+/* slider-end*/
+/* ches start */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows:repeat(3,1fr) ;
+    
+}
+.pic1{
+    padding-top: 74px;
+    text-align: center;
+}
+.desc{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+padding-top: 31px;
+padding-bottom: 85px;
+color: white;
+}
+.intercity-taxi-box{
+    background-color: #FC8800;
+   
+}
+.call-now-box{
+    background-color: #CF0089;
+}
+.price-box{
+    background-color: #00A110;
+}
+.no-limit-taxi{
+    background-color: #213FA7;
+}
+.back-box{
+    background-color: #FC8800;
+}
+.guides-box{
+    background-color: #CF0089;
+}
+.english-box{
+    background-color: #00A110;
+}
+.locations-box{
+    background-color: #213FA7;
+}
+/* ches end */
