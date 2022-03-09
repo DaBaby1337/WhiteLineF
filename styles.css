@@ -206,7 +206,7 @@ color: white;
 /* preview start */
 .preview{
     height: 977px;
-    background:url(/img/bgP.png) no-repeat;    
+    background:url(../img/bgP.png) no-repeat;    
     background-size: 100%;
 }
 .preview-wrapper{
