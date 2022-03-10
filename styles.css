@@ -148,11 +148,19 @@ margin-bottom: 12px;
 .buttons{
     position: absolute;
     left: 45%;
-    top: 95%;
+    top: 93%;
 }
-.button{
-    width: 20px;
-    height: 20px;
+.button-slider{
+    width: 35px;
+    height: 35px;
+    opacity: 60%;
+    border-radius: 50%;
+}
+.slider-back{
+    background: url(/img/arrowLeft.png);
+}
+.slider-next{
+    background: url(/img/arrowRight.png);
 }
 /* slider-end*/
 /* ches start */
@@ -206,7 +214,7 @@ color: white;
 /* preview start */
 .preview{
     height: 977px;
-    background:url(../img/bgP.png) no-repeat;    
+    background:url(./img/bgP.png) no-repeat;    
     background-size: 100%;
 }
 .preview-wrapper{
