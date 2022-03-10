@@ -269,7 +269,7 @@ color: #E5E5E5;
 margin-bottom: 40px;
 }
 .order-free{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
@@ -278,5 +278,5 @@ line-height: 44px;
 text-align: center;
 color: #E5E5E5;
 }
-
+/* end main */
 /* preview end */

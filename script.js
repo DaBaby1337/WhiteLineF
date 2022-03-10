@@ -46,6 +46,10 @@ function rollSlider(count){
     document.getElementById('sliderW').onmouseenter=function(){
     start();
 }
+function test(){
+    a++;
+}
+// p
 // document.getElementById('sliderW').onmouseleave=function(){
 //     start();
 // }
